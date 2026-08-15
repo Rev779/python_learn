@@ -71,29 +71,17 @@ print(s.index('a', 4, 8))
 4
 4
 
-# s.index('z') raises ValueError since 'z' is not in s.
-# Wrapped in try/except so the script keeps running.
-try:
-    print(s.index('z'))
-except ValueError as exc:
-    print(f"s.index('z') raised ValueError: {exc}")
-
-print(s.find('z'))  # -1, find() doesn't raise, just returns -1
-
-
 # 6. is-methods
 a = ' '
 b = ' a'
 print(a.isspace())
 print(b.isspace())
-
 a = 'aBcD'
 print(a.isalpha())
 b = 'aBcD1'
 print(b.isalpha())
 c = 'aBc@D'
 print(c.isalpha())  # fixed typo (was isapha)
-
 a = '13'
 print(a.isdigit())
 b = '12a'  # fixed missing closing quote
@@ -103,16 +91,15 @@ a = 'AbC123'
 print(a.isalnum())
 b = 'Ab#C2'
 print(b.isalnum())
-
 a = '23$U'
 print(a.isupper())
 b = '23%Ua'
 print(b.isupper())
-
 a = '23$u'
 print(a.islower())
 b = '23%uA'
 print(b.islower())
+
 isspace()
 True
 False
