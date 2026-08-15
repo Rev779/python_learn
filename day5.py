@@ -10,7 +10,8 @@ a = 'python is simple, python is easy, python is allrounder'
 b = a.replace('python', 'java')
 print(a)
 print(b)
-
+python is simple, python is easy, python is allrounder
+java is simple, java is easy, java is allrounder
 
 # 3. upper, lower, swapcase, title, capitalize
 a = 'PYTHON is siMPle'
