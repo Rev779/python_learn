@@ -128,16 +128,21 @@ False
 # split
 a = 'badac'
 print(a.split('a'))
-['b', 'd', 'c']b = '   '
+b = '   '
+print(b.split(' '))
+print(b.split(' '))
 print(b.split(' '))
 
 b = '   '  # 3 spaces
 print(b.split(' '))
+['', '', '', '']
 c = 'abaca'
 print(c.split('a'))
+['', 'b', 'c', '']
 d = 'iam a good person'
 print(d.split())
-
+d = 'iam a good person'
+print(d.split())
 
 # join
 a = '@'
@@ -152,3 +157,7 @@ print(a.join(str(x) for x in l))
 print(a.join(str(x) for x in t))
 print(a.join(str(x) for x in s))
 print(a.join(str(x) for x in d))
+a = '@'
+l = [1,2,3]
+t = (1,2,3)
+print(a.join(l))
