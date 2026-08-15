@@ -40,7 +40,12 @@ print(d)
 print(e)
 print(f)
 print(g)
-
+True
+False
+True
+False
+3
+1
 
 # 5. find, rfind, index, rindex
 s = 'abacada'
