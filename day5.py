@@ -20,7 +20,11 @@ print(a.upper())
 print(a.swapcase())
 print(a.title())
 print(a.capitalize())
-
+python is simple
+PYTHON IS SIMPLE
+python IS SiMPLE
+Python Is Simple
+Python is simple
 
 # 4. count, startswith, endswith
 a = 'abacad'
