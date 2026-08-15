@@ -149,10 +149,8 @@ a = '@'
 l = [1, 2, 3]
 t = (1, 2, 3)
 s = {1, 2, 3}
-d = {3: 1, 2: 3, 3: 1}  # duplicate key 3 collapses -> {3: 1, 2: 3}
+d = {3: 1, 2: 3, 3: 1} 
 print(d)
-
-# join() needs an iterable of strings, so convert each item first
 print(a.join(str(x) for x in l))
 print(a.join(str(x) for x in t))
 print(a.join(str(x) for x in s))
