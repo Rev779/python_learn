@@ -1,10 +1,9 @@
 #strings
 # 1. strip, lstrip, rstrip
-a = '   python is simple   '
-print(a.strip())
-print(a.lstrip())
-print(a.rstrip())
-
+a = '   python is simple'
+python is simple
+python is simple   
+   python is simple
 
 # 2. replace
 a = 'python is simple, python is easy, python is allrounder'
@@ -49,6 +48,18 @@ print(s.rfind('a', 4, 8))
 print(s.index('a'))
 print(s.index('a', 3))
 print(s.index('a', 4, 8))
+0
+4
+4
+6
+6
+6
+0
+4
+4
+0
+4
+4
 
 # s.index('z') raises ValueError since 'z' is not in s.
 # Wrapped in try/except so the script keeps running.
@@ -92,11 +103,37 @@ a = '23$u'
 print(a.islower())
 b = '23%uA'
 print(b.islower())
+isspace()
+True
+False
 
+isalpha()
+True
+False
+False
+
+isdigit()
+True
+False
+
+isalnum()
+True
+False
+
+isupper()
+True
+False
+
+islower()
+True
+False
 
 # split
 a = 'badac'
 print(a.split('a'))
+['b', 'd', 'c']b = '   '
+print(b.split(' '))
+
 b = '   '  # 3 spaces
 print(b.split(' '))
 c = 'abaca'
